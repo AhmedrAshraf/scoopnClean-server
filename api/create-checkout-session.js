@@ -33,7 +33,7 @@ app.post('/api/create-checkout-session', async(req, res)=>{
         // success_url: 'http://localhost:8100/api/success-payment?session_id={CHECKOUT_SESSION_ID}',
         // cancel_url: 'http://localhost:5173/cancel',
 
-        success_url: 'https://scoopn-clean.vercel.app/api/success-payment?session_id={CHECKOUT_SESSION_ID}',
+        success_url: 'https://scoopn-clean-server.vercel.app/api/success-payment?session_id={CHECKOUT_SESSION_ID}',
         cancel_url: 'https://scoopn-clean.vercel.app/cancel',
 
         customer_email: `${customerEmail}`,
